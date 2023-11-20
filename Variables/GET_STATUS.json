@@ -1,0 +1,12 @@
+
+{
+    "urlS":"https://sbxcbiglobeopenbankingapigateway.nexi.it/platform/enabler/psd2orchestrator/pis/2.3.2/payments/sepa-credit-transfers/",
+    "status":"/status",
+    "payload":"",
+    "headers2" :{
+        "authorization": "Bearer ",
+        "x-request-id": "",
+        "date": "Mon, 18 Sep 2023 12:55:40 +0200",
+        "aspsp-code": "05034"
+    }
+}

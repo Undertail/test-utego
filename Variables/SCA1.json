@@ -1,0 +1,15 @@
+
+{
+    "headers1":{
+        "Content-Type": "application/json",
+        "TPP-Redirect-URI": "https://localhost.loc/94.89.163.149?status=OK",
+        "TPP-NOK-Redirect-URI": "https://localhost.loc/94.89.163.149 ?status=KO",
+        "TPP-Redirect-Preferred": "true",
+        "authorization": "Bearer ",
+        "x-request-id":"",
+        "date": "Mon, 18 Sep 2023 12:3:11 +0200",
+        "aspsp-code": "05034",
+        "aspsp-product-code": "IBP01",
+        "psu-ip-address": "127.0.0.1"
+    }
+}

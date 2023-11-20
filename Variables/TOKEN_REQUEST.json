@@ -1,0 +1,26 @@
+{
+    "urlToken": "https://sbxcbiglobeopenbankingapigateway.nexi.it/auth/oauth/v2/token",
+    "payloadToken" :"grant_type=client_credentials&scope=sandbox&client_id=cb42c0cf-27a4-4f57-90b1-0b369aa7b97e&client_secret=3853283b-f05c-4f39-a740-92c6fee88227",
+    "headersToken":
+        {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "post": "POST",
+        "tag_acces_token": "access_token",
+        "urlsca1":"https://sbxcbiglobeopenbankingapigateway.nexi.it/platform/enabler/psd2orchestrator/pis/2.3.2/payments/sepa-credit-transfers",
+        "payloadSCA1":{
+            "endToEndId": "9999999999999999999999",
+            "instructedAmount": {
+                "amount": "10.00",
+                "currency": "EUR"
+            },
+            "creditorName": "Test Creditor CBI single payment",
+            "requestedExecutionDate": "2024-09-19",
+            "remittanceInformationUnstructured": "Payment description",
+            "transactionType": "remote_transaction",
+            "creditorAccount": {
+                "iban": "IT23Q0300203280736225314924",
+                "currency": "EUR"
+            }
+        }
+}
