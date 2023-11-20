@@ -1,0 +1,23 @@
+{
+  "adapterList": {
+    "Auriga": {
+      "payload":{
+      "psuId": ""}
+    },
+    "Fineco": {},
+    "Fabrick": {},
+
+    "CBI": {
+      "payload":{
+      "psuId": "",
+      "productId": ""},"headers":{}
+    },
+    "SIA": {},
+    "Unicredit": {}
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer "
+  },
+  "endpoint": "/sca"
+}

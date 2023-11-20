@@ -1,0 +1,64 @@
+{
+  "users": {
+    "headers": {
+      "Accept": "application/json; charset=utf-8",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer "
+    },
+    "payload": {},
+    "endpoint": "/users"
+  },
+  "usersUserIdBanksBankId": {
+    "headers": {
+      "Accept": "application/json; charset=utf-8",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer "
+    },
+
+    "payloadBankAccount": {
+      "accountInfo": {
+        "iban": "IT0000000000000",
+        "type": "BankAccount"
+      }
+    },
+    "payloadCardAccount": {
+      "accountInfo": {
+        "number": "IT0000000000000",
+        "address": "IT0000000000000",
+        "expirationDate": "IT0000000000000",
+        "iban": "IT0000000000000",
+        "maxPlafond": "IT0000000000000",
+        "type": "Card"
+      }
+    },
+    "endpoint": "/banks"
+  },
+  "getBankAccount": {
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer "
+    },
+    "payload": {}
+},
+  "createTransaction":{
+    "headers":{
+      "Content-Type": "application/json",
+      "Authorization": "Bearer "
+    },
+    "payload":{
+      "value":69.69,
+      "transactionDate":"2016-06-02T12:53:14.924Z",
+      "reason":"",
+      "iban":""
+    },"endpoint":"/transactions"
+  },
+  "getTransaction":{
+    "headers":{
+      "Content-Type": "application/json",
+      "Authorization": "Bearer "
+    },
+    "payload":{}
+  },
+  "accounts":"/accounts"
+  
+}
